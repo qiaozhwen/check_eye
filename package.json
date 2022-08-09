@@ -1,0 +1,25 @@
+{
+  "name": "check_eye",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiaozhwen/check_eye.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiaozhwen/check_eye/issues"
+  },
+  "homepage": "https://github.com/qiaozhwen/check_eye#readme",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "rollup": "^2.77.2"
+  }
+}
