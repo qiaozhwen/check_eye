@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "es2015",
+    "lib": ["es6", "dom", "es2017"],
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": ["__tests__"],
+  "include": ["src/**/*", "typings/*"]
+}
