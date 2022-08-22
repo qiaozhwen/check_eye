@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:esm": "rollup -c rollup.config.js",
-    "postbuild:esm": "tsc  --emitDeclarationOnly --declaration --project tsconfig.json --outDir dist/esm"
+    "build:esm": "rollup -c rollup.config.js"
   },
   "repository": {
     "type": "git",
