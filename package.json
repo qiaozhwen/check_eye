@@ -15,12 +15,17 @@
   "bugs": {
     "url": "https://github.com/qiaozhwen/check_eye/issues"
   },
+  "bin": {
+    "transform": "bin/transform.js"
+  },
   "homepage": "https://github.com/qiaozhwen/check_eye#readme",
   "dependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.10",
     "@babel/preset-env": "^7.18.10",
+    "commander": "^9.4.0",
     "esbuild": "^0.14.54",
+    "recast": "^0.21.2",
     "rollup": "^2.77.2",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-esbuild": "^4.9.1",
